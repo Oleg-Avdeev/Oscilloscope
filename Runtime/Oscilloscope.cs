@@ -59,6 +59,7 @@ namespace Oscilloscope
 
 			const int maxDepth = 10;
 
+			var originalOwner = channelOwner;
 			fullName = channelOwner.name;
 			for (var i = 0; i < maxDepth; i++)
 			{
@@ -67,7 +68,7 @@ namespace Oscilloscope
 				fullName = $"{channelOwner.name}.{fullName}";
 			}
 
-			_channelOwnerMap.Add(channelOwner, fullName);
+			_channelOwnerMap.Add(originalOwner, fullName);
 			return fullName;
 		}
 
