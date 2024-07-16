@@ -1,6 +1,6 @@
 {
 	"name": "com.oleg-avdeev.oscilloscope",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"displayName": "Oscilloscope",
 	"description": "Real-time value debugging",
 	"unity": "2022.1",
