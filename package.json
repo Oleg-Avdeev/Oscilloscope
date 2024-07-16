@@ -1,0 +1,20 @@
+{
+	"name": "com.oleg-avdeev.oscilloscope",
+	"version": "0.0.1",
+	"displayName": "Oscilloscope",
+	"description": "Real-time value debugging",
+	"unity": "2022.1",
+	"dependencies": {
+		"com.unity.modules.uielements": "1.0.0"
+   },
+   "keywords": [
+	  "Debug",
+	  "Editor",
+	  "Oscilloscope"
+	],
+	"author": {
+	  "name": "Oleg Avdeev",
+	  "url": "https://github.com/Oleg-Avdeev"
+	}
+  }
+  
